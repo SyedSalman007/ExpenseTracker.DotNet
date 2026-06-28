@@ -8,7 +8,7 @@ A personal expense tracking REST API built with .NET 10 following Clean Architec
 |---|---|
 | Framework | ASP.NET Core 10 Web API |
 | ORM | EF Core 10 |
-| Database | PostgreSQL 17 |
+| Database | PostgreSQL 16 |
 | Validation | FluentValidation |
 | Mapping | Mapster |
 | Auth | ASP.NET Core Identity + JWT Bearer |
@@ -27,7 +27,7 @@ Clean Architecture with four layers:
 
 ### Prerequisites
 - .NET 10 SDK
-- PostgreSQL 17
+- PostgreSQL 16
 
 ### Setup
 
