@@ -6,5 +6,5 @@ public interface IRepository<T> where T : class
     Task<ICollection<T>> GetAllAsync();
     Task AddAsync(T entity);
     Task UpdateAsync(T entity);
-    Task DeleteAsync(T entity);
+    Task DeleteAsync(Guid id);
 }
